@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Users.Models.TeachersModel>
+
+<div class="container mt-5">
+    <h2>@(ViewData["title"] ?? "Teachers List")</h2>
+    <table class="table table-striped mt-4">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Subject</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var teacher in Model)
+            {
+                <tr>
+                    <td>@teacher.Id</td>
+                    <td>@teacher.Name</td>
+                    <td>@teacher.Email</td>
+                    <td>@teacher.Subject</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

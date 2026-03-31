@@ -1,0 +1,15 @@
+info:
+  name: Students
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: https://localhost:7215/Students/Add
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
