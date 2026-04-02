@@ -2,6 +2,7 @@
 
 <div class="container mt-5">
     <h2>@(ViewData["title"] ?? "Students List")</h2>
+    <a asp-action="Add" class="btn btn-success mb-3">Add New Student</a>
     <table class="table table-striped mt-4">
         <thead class="table-dark">
             <tr>
@@ -9,6 +10,7 @@
                 <th>Name</th>
                 <th>Email</th>
                 <th>Grade</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -19,6 +21,13 @@
                     <td>@student.Name</td>
                     <td>@student.Email</td>
                     <td>@student.Grade</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@student.Id" class="btn btn-sm btn-primary me-2">Edit</a>
+                        <form asp-action="Delete" asp-route-id="@student.Id" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Delete this student?');">Delete</button>
+                        </form>
+                    </td>
                 </tr>
             }
         </tbody>

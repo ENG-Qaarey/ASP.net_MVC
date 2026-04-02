@@ -44,5 +44,55 @@ namespace Users.Controllers
             ViewBag.Users = new SelectList(_context.Users, "UserId", "Name");
             return View(employee);
         }
+
+        // GET EDIT
+        public IActionResult Edit(int id)
+        {
+            var employee = _context.Employees.Find(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.Users = new SelectList(_context.Users, "UserId", "Name", employee.CreatedByUserID);
+            return View(employee);
+        }
+
+        // POST EDIT
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, Employee employee)
+        {
+            if (id != employee.Id)
+            {
+                return BadRequest();
+            }
+
+            if (ModelState.IsValid)
+            {
+                _context.Employees.Update(employee);
+                _context.SaveChanges();
+                return RedirectToAction("Get");
+            }
+
+            ViewBag.Users = new SelectList(_context.Users, "UserId", "Name", employee.CreatedByUserID);
+            return View(employee);
+        }
+
+        // POST DELETE
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var employee = _context.Employees.Find(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            _context.Employees.Remove(employee);
+            _context.SaveChanges();
+            return RedirectToAction("Get");
+        }
     }
 }

@@ -186,3 +186,4 @@ C:\Users\Qarey\source\repos\Users\Users\bin\Debug\net10.0\zh-Hant\Microsoft.Code
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\Users.csproj.AssemblyReference.cache
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\Users.csproj.Up2Date
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\Users.sourcelink.json

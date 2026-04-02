@@ -13,6 +13,7 @@
                 <th>Email</th>
                 <th>Job Title</th>
                 <th>Created By</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -24,6 +25,13 @@
                     <td>@emp.Email</td>
                     <td>@emp.JobTitle</td>
                     <td>@emp.CreatedByUserID</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@emp.Id" class="btn btn-sm btn-primary me-2">Edit</a>
+                        <form asp-action="Delete" asp-route-id="@emp.Id" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Delete this employee?');">Delete</button>
+                        </form>
+                    </td>
                 </tr>
             }
         </tbody>

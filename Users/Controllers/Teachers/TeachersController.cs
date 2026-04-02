@@ -40,5 +40,50 @@ namespace Users.Controllers
         {
             return View(_context.Teachers.ToList());
         }
+
+        public IActionResult Edit(int id)
+        {
+            var teacher = _context.Teachers.Find(id);
+            if (teacher == null)
+            {
+                return NotFound();
+            }
+
+            return View(teacher);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, TeachersModel teacher)
+        {
+            if (id != teacher.Id)
+            {
+                return BadRequest();
+            }
+
+            if (ModelState.IsValid)
+            {
+                _context.Teachers.Update(teacher);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Get));
+            }
+
+            return View(teacher);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var teacher = _context.Teachers.Find(id);
+            if (teacher == null)
+            {
+                return NotFound();
+            }
+
+            _context.Teachers.Remove(teacher);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Get));
+        }
     }
 }

@@ -1,0 +1,45 @@
+@model Users.Models.Employee
+
+<div class="container mt-5">
+    <h2>Edit Employee</h2>
+
+    <form asp-action="Edit" method="post" class="mt-4">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" type="email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="JobTitle" class="form-label"></label>
+            <input asp-for="JobTitle" class="form-control" />
+            <span asp-validation-for="JobTitle" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CreatedByUserID" class="form-label"></label>
+            <select asp-for="CreatedByUserID" asp-items="ViewBag.Users" class="form-select">
+                <option value="0">Select a user</option>
+            </select>
+            <span asp-validation-for="CreatedByUserID" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-action="Get" class="btn btn-secondary ms-2">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
