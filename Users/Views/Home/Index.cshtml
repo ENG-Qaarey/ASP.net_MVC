@@ -2,7 +2,29 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="app-hero">
+    <div class="app-hero-content">
+        <span class="app-badge">ASP.NET Core MVC</span>
+        <h1 class="app-hero-title">Welcome</h1>
+        <h2><span class="app-hero-label">Lecturer by:</span> Abdisalan Abdullahi Mohamed</h2>
+        <p class="app-hero-subtitle">
+            Build and manage users, students, teachers, and employees in one clean dashboard.
+        </p>
+        <div class="app-hero-actions">
+            <a class="btn btn-primary" asp-controller="Users" asp-action="Get">View Users</a>
+            <a class="btn btn-secondary" asp-controller="Home" asp-action="Privacy">Learn More</a>
+        </div>
+    </div>
+    <div class="app-hero-panel">
+        <div class="app-hero-card">
+            <h2>Quick Actions</h2>
+            <p>Jump directly to each module to add, edit, or review data.</p>
+            <div class="app-hero-links">
+                <a class="app-hero-link" asp-controller="Users" asp-action="Get">Users</a>
+                <a class="app-hero-link" asp-controller="Students" asp-action="Get">Students</a>
+                <a class="app-hero-link" asp-controller="Teachers" asp-action="Get">Teachers</a>
+                <a class="app-hero-link" asp-controller="Employee" asp-action="Get">Employee</a>
+            </div>
+        </div>
+    </div>
+</section>

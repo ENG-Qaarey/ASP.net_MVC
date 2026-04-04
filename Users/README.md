@@ -16,6 +16,14 @@ An ASP.NET Core MVC app that manages Users, Students, Teachers, and Employees us
 - Pomelo.EntityFrameworkCore.MySql
 - MySQL 8
 
+## Packages
+
+- Microsoft.EntityFrameworkCore (9.0.0)
+- Microsoft.EntityFrameworkCore.Design (9.0.0)
+- Microsoft.EntityFrameworkCore.Tools (9.0.0)
+- Pomelo.EntityFrameworkCore.MySql (9.0.0)
+- Npgsql.EntityFrameworkCore.PostgreSQL
+
 ## Local Development
 
 ### Prerequisites

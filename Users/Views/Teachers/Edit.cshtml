@@ -1,9 +1,9 @@
 @model Users.Models.TeachersModel
 
-<div class="container mt-5">
-    <h2>Edit Teacher</h2>
+<div class="container mt-5 app-section">
+    <h2 class="app-title">Edit Teacher</h2>
 
-    <form asp-action="Edit" method="post" class="mt-4">
+    <form asp-action="Edit" method="post" class="mt-4 app-form">
         @Html.AntiForgeryToken()
         <input type="hidden" asp-for="Id" />
 

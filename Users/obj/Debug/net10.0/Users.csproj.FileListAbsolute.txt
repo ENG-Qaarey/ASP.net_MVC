@@ -21,9 +21,7 @@ C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\rjsmcshtml.dswa.cache.
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\scopedcss\bundle\Users.styles.css
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\scopedcss\projectbundle\Users.bundle.scp.css
-C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\compressed\ycac9759l0-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\compressed\ip06lmco1q-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\compressed\wz2kyqi5wi-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\compressed\vvxbibzo72-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\compressed\zl51qvzjmp-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\compressed\kuu1mku9kg-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -187,3 +185,5 @@ C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\Users.csproj.AssemblyR
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\Users.csproj.Up2Date
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\Users.sourcelink.json
+C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\compressed\wz2kyqi5wi-{0}-obwpp7arv0-obwpp7arv0.gz
+C:\Users\Qarey\source\repos\Users\Users\obj\Debug\net10.0\compressed\ycac9759l0-{0}-l9idljguvd-l9idljguvd.gz

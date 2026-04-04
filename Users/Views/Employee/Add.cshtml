@@ -1,9 +1,9 @@
 @model Users.Models.Employee
 
-<div class="container mt-5">
-    <h2>Add Employee</h2>
+<div class="container mt-5 app-section">
+    <h2 class="app-title">Add Employee</h2>
 
-    <form asp-action="Add" method="post" class="mt-4">
+    <form asp-action="Add" method="post" class="mt-4 app-form">
         @Html.AntiForgeryToken()
 
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>

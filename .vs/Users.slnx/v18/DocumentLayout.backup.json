@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Qarey\\source\\repos\\Users\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Migrations\\20260404165559_MYsqlUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Users\\Migrations\\20260404165559_MYsqlUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Migrations\\20260404103749_MYsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Users\\Migrations\\20260404103749_MYsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8ABBC9-1452-2F4A-8AF4-E4ECD2B1CD05}|Users\\Users.csproj|c:\\users\\qarey\\source\\repos\\users\\users\\data\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8ABBC9-1452-2F4A-8AF4-E4ECD2B1CD05}|Users\\Users.csproj|solutionrelative:users\\data\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE8ABBC9-1452-2F4A-8AF4-E4ECD2B1CD05}|Users\\Users.csproj|c:\\users\\qarey\\source\\repos\\users\\users\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE8ABBC9-1452-2F4A-8AF4-E4ECD2B1CD05}|Users\\Users.csproj|solutionrelative:users\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -30,11 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260404165559_MYsqlUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Migrations\\20260404165559_MYsqlUpdate.cs",
+              "RelativeDocumentMoniker": "Users\\Migrations\\20260404165559_MYsqlUpdate.cs",
+              "ToolTip": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Migrations\\20260404165559_MYsqlUpdate.cs",
+              "RelativeToolTip": "Users\\Migrations\\20260404165559_MYsqlUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T16:55:59.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260404103749_MYsql.cs",
+              "DocumentMoniker": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Migrations\\20260404103749_MYsql.cs",
+              "RelativeDocumentMoniker": "Users\\Migrations\\20260404103749_MYsql.cs",
+              "ToolTip": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Migrations\\20260404103749_MYsql.cs",
+              "RelativeToolTip": "Users\\Migrations\\20260404103749_MYsql.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:37:50.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UsersDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Data\\UsersDBcontext.cs",
+              "RelativeDocumentMoniker": "Users\\Data\\UsersDBcontext.cs",
+              "ToolTip": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Data\\UsersDBcontext.cs",
+              "RelativeToolTip": "Users\\Data\\UsersDBcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T05:11:40.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Users\\Controllers\\UsersController.cs",
@@ -46,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Get.cshtml",
               "DocumentMoniker": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Views\\Employee\\Get.cshtml",
               "RelativeDocumentMoniker": "Users\\Views\\Employee\\Get.cshtml",
@@ -58,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Views\\Employee\\Add.cshtml",
               "RelativeDocumentMoniker": "Users\\Views\\Employee\\Add.cshtml",
@@ -71,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Users\\Models\\Employee.cs",
@@ -84,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\Qarey\\source\\repos\\Users\\Users\\Controllers\\employee\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Users\\Controllers\\employee\\EmployeeController.cs",
